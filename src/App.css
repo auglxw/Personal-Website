@@ -1,0 +1,82 @@
+html, body, #root {
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.heading {
+  padding-top: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+/* Navigation (links and hamburger button) */
+.navLink {
+  margin: 0px 20px;
+}
+
+#navBar {
+  justify-content: center;
+}
+
+#navBar .hamburger {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  font-size: 80%;
+}
+/* --- */
+
+/* Name icon */
+.name {
+  font-family: 'Poppins', sans-serif;;
+  font-size: 100%;
+  vertical-align: middle;
+  color: #284b63;
+  text-decoration: none;
+}
+
+.name:hover {
+  color: #284b63;
+}
+
+/* contacts icons */
+.socialIcon {
+  margin: 10px;
+  font-size: 100%;
+  color: black;
+}
+
+.greetings {
+  padding-top: 7rem;
+}
+
+.carouselDiv {
+  display: flex;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.slidingCarousel {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.carouselItem {
+  padding: 5% 15%;
+}
+
+.carouselContent {
+  font-size: 100%;
+  line-height: 150%;
+}
