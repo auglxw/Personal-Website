@@ -3,6 +3,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Heading from "./components/heading";
 import ProjectCarousel from "./components/carousel";
+import AboutBody from "./components/about";
+import ProjectsBody from "./components/projects";
 
 function Home() {
     return <div className="App">
@@ -14,18 +16,14 @@ function Home() {
 function About() {
     return <div className="App">
         <Heading />
-        <div>
-            <h1>About</h1>
-        </div>
+         <AboutBody />
     </div>
 }
 
 function Projects() {
     return <div className="App">
         <Heading />
-        <div>
-            <h1>Projects</h1>
-        </div>
+        <ProjectsBody />
     </div>
 }
 
