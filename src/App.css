@@ -120,3 +120,29 @@ html, body, #root {
   margin: 5% 0%;
 }
 /* --- */
+
+/* Experience page */
+.expCol {
+  padding: 5% 0%;
+}
+
+.expCoyName {
+  font-size: 120%;
+  font-family: "Poppins", sans-serif;
+}
+
+.expPeriod {
+  padding-bottom: 2%;
+}
+
+.expJD {
+  text-align: left;
+  line-height: 200%;
+}
+
+.expSeparator {
+  margin: 1% 45%;
+  border-top: 5px dotted black;
+  background-color: white;
+}
+/* --- */
