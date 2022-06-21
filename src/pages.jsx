@@ -5,6 +5,7 @@ import Heading from "./components/heading";
 import ProjectCarousel from "./components/carousel";
 import AboutBody from "./components/about";
 import ProjectsBody from "./components/projects";
+import ExperienceBody from "./components/experience";
 
 function Home() {
     return <div className="App">
@@ -30,9 +31,7 @@ function Projects() {
 function Experience() {
     return <div className="App">
         <Heading />
-        <div>
-            <h1>Experience</h1>
-        </div>
+        <ExperienceBody />
     </div>
 }
 
