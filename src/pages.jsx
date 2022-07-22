@@ -6,18 +6,19 @@ import ProjectCarousel from "./components/carousel";
 import AboutBody from "./components/about";
 import ProjectsBody from "./components/projects";
 import ExperienceBody from "./components/experience";
+import Introwords from "./components/introwords";
 
 function Home() {
     return <div className="App">
         <Heading />
-        <ProjectCarousel />
+        <Introwords />
     </div>
 }
 
 function About() {
     return <div className="App">
         <Heading />
-         <AboutBody />
+        <AboutBody />
     </div>
 }
 

@@ -5,6 +5,7 @@ html, body, #root {
 .App {
   text-align: center;
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -84,10 +85,6 @@ html, body, #root {
 /* --- */
 
 /* About page */
-.about {
-  flex-grow: 1;
-}
-
 .aboutGrid {
   flex-grow: 1;
   height: 100%;
@@ -156,3 +153,48 @@ html, body, #root {
   background-color: white;
 }
 /* --- */
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  flex: 0.8;
+  justify-content: center;
+}
+
+.introWords {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20vw;
+  line-height: 120%;
+  background: -webkit-linear-gradient(rgb(5, 160, 226), rgb(162, 230, 5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width: 1000px) {
+  .introWords {font-size: 13vw;}
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.reveal {
+  visibility: visible;
+  animation: fadeIn 3s;
+  -webkit-animation: fadeIn 3s;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: gray;
+  display: inline;
+}
+
+.reveal:hover {
+  color: rgb(60, 60, 60);
+}

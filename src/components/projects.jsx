@@ -1,8 +1,8 @@
 import * as React from "react";
-import {Row, Col, Card, Button} from 'react-bootstrap';
+import {Container, Row, Col, Card, Button} from 'react-bootstrap';
 
 function ProjectsBody() {
-    return <div>
+    return <Container fluid>
     <Row className="projectsGrid">
         <Col lg={4} xs={12} className="projectsCol">
             <Card style={{ width: '18rem' }} className="mx-auto">
@@ -41,7 +41,7 @@ function ProjectsBody() {
             </Card>
         </Col>
     </Row>
-    </div>
+    </Container>
 }
 
 export default ProjectsBody;
