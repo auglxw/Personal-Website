@@ -4,9 +4,9 @@ import {Container, Navbar, Nav, Row, Col} from 'react-bootstrap';
 function AboutBody() {
     return <Container fluid>
     <Row className="aboutGrid">
-        <Col lg={4} xs={12}>
+        <Col lg={4} xs={12} className="aboutCol">
             <div>
-                <img className="aboutPicture" src={require("../img/profilepic.png")} alt="Profile Pic" height="500rem" />
+                <img className="aboutPicture" src={require("../img/profilepic.jpeg")} alt="Profile Pic" />
             </div>
         </Col>
         <Col lg={8} xs={12} className="aboutWords">

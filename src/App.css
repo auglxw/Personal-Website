@@ -91,6 +91,12 @@ html, body, #root {
   height: 100%;
 }
 
+.aboutCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .aboutWords {
   padding-left: 10%;
 }
@@ -109,7 +115,13 @@ html, body, #root {
 }
 
 .aboutPicture {
-  padding-top: 20%;
+  margin-top: 50px;
+  height: 350px;
+  border-radius: 1750px;
+  -webkit-border-radius: 1750px;
+  -moz-border-radius: 1750px;
+  -ms-border-radius: 1750px;
+  -o-border-radius: 1750px;
 }
 
 .aboutContent {
@@ -126,6 +138,20 @@ html, body, #root {
 
 .projectsCol {
   margin: 5% 0%;
+}
+
+.projectsGrid .mx-auto {
+  height: 500px;
+}
+
+.projectsGrid .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cardImg {
+  height: 210px;
 }
 /* --- */
 

@@ -6,37 +6,34 @@ function ProjectsBody() {
     <Row className="projectsGrid">
         <Col lg={4} xs={12} className="projectsCol">
             <Card style={{ width: '18rem' }} className="mx-auto">
-                <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/6412038?s=280&v=4" />
+                <Card.Img variant="top" src={require("../img/myclinic.png")} className="cardImg" />
                 <Card.Body>
-                    <Card.Title>Project 1</Card.Title>
-                    <Card.Text>
-                    Project 1 Description
-                    </Card.Text>
-                    <Button variant="outline-secondary">Read More</Button>
+                    <Card.Title>Digital Patient Registration System</Card.Title>
+                    <Card.Text>Online registration system for clinics to improve patients' waiting experience (In Progress)</Card.Text>
+                    <Card.Text>Full-Stack Web App using MERN stack</Card.Text>
+                    <Button variant="outline-secondary" href="https://github.com/auglxw/myclinic">Source Code</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col lg={4} xs={12} className="projectsCol">
             <Card style={{ width: '18rem' }} className="mx-auto">
-                <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/6412038?s=280&v=4" />
+                <Card.Img variant="top" src={require("../img/PortfolioWebsite.png")} className="cardImg" />
                 <Card.Body>
-                    <Card.Title>Project 2</Card.Title>
-                    <Card.Text>
-                    Project 2 Description
-                    </Card.Text>
-                    <Button variant="outline-secondary">Read More</Button>
+                    <Card.Title>Personal Portfolio<br />Website</Card.Title>
+                    <Card.Text>Portfolio webpage to share a little more about myself</Card.Text>
+                    <Card.Text>Built using HTML, CSS, JavaScript, ReactJS</Card.Text>
+                    <Button variant="outline-secondary" href="https://github.com/auglxw/Personal-Website">Source Code</Button>
                 </Card.Body>
             </Card>
         </Col>
         <Col lg={4} xs={12} className="projectsCol">
             <Card style={{ width: '18rem' }} className="mx-auto">
-                <Card.Img variant="top" src="https://avatars.githubusercontent.com/u/6412038?s=280&v=4" />
+                <Card.Img variant="top" src={require("../img/DataSci.png")} className="cardImg" />
                 <Card.Body>
-                    <Card.Title>Project 3</Card.Title>
-                    <Card.Text>
-                    Project 3 Description
-                    </Card.Text>
-                    <Button variant="outline-secondary">Read More</Button>
+                    <Card.Title>Multi-Class Income Classifier</Card.Title>
+                    <Card.Text>Classifier model that predict one's income based on various factors</Card.Text>
+                    <Card.Text>Built with Python with the use of libraries like Pandas, Scikit-learn, XGBoost</Card.Text>
+                    <Button variant="outline-secondary" href="https://github.com/auglxw/SC1015-Project">Source Code</Button>
                 </Card.Body>
             </Card>
         </Col>
